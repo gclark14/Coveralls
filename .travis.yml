@@ -3,9 +3,9 @@ language: java
 jdk:
   - oraclejdk8
 
-gradle check
+./gradle check
 
-gradle assemble
+./gradle assemble
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
